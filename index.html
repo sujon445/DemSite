@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Homepage Design</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+     <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">LEDP</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="service.html">Service</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="service.html" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                 Works
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Web Design & Development</a>
+                                <a class="dropdown-item" href="#">Android App Development</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Order</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/slide.png" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-4 bg-warning text-center p-2">Fisrt Slide</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/slide1.png" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-4 bg-success text-left p-2">Second Slide</h5>
+                        <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/slide2.png" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-4 bg-info">Third Slide</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+              
+                <div class="carousel-item">
+                        <img class="d-block w-100" src="images/slide3.png" alt="4th slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="display-4 bg-info">4th Slide</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                </div>
+                    
+                <div class="carousel-item">
+                        <img class="d-block w-100" src="images/slide4.png" alt="5th slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="display-4 bg-info">5th Slide</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+        </div>
+    </header>
+    <section class="about-us mt-4 mb-4">
+        <div class="container">
+            <div class="about-title text-center p-5">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius maiores quidem quisquam molestiae sint, reiciendis nemo ex numquam quam distinctio ipsum dolor . distinctio ipsum dolor </p>
+            </div>
+            <div class="row mb-5">
+                <div class="col-md-4">
+                    <div class="single-about card card-body text-center pt-5">
+                        <i class="fab fa-app-store-ios"></i>
+                        <h4 class="mt-2">Andoid App Deevelopment</h4>
+                        <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi ea neque dolor, fuga a deserunt? Modi ut sed accusamus alias?</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="single-about card card-body text-center pt-5">
+                        <i class="fab fa-wordpress "></i>
+                        <h4 h4 class="mt-2">WordPress Development</h4>
+                        <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi ea neque dolor, fuga a deserunt? Modi ut sed accusamus alias?</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="single-about card card-body text-center pt-5">
+                        <i class="fab fa-html5 text-warning"></i>
+                        <h4 h4 class="mt-2">Html</h4>
+                        <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi ea neque dolor, fuga a deserunt? Modi ut sed accusamus alias?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section >
+
+    <section class="gallery-area bg-dark pt-5 pb-3">
+        <div class="container">
+            <div class="section-heading text-center text-white p-5 w-75 m-auto">
+                <h2 class="display-3 font-weight-bold">Photo Gallery</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum laborum voluptates porro odio minus dicta nisi in, dolore ratione totam!lorem20.porro porro odio minus dicta nisi in, dolore ratione totam!lorem20.porro 
+                </p>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <a href="images/slide.png" data-lightbox="example-set">
+                            <img  src="images/slide.png" class="w-100"alt=""/>
+                        </a>
+                    
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <a href="images/slide2.png" data-lightbox="example-set">
+                            <img  src="images/slide2.png" class="w-100"alt=""/>
+                        </a>
+                    
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-item">
+                        <a href="images/slide1.png" data-lightbox="example-set">
+                            <img  src="images/slide1.png" class="w-100"alt=""/>
+                        </a>
+                    
+                    </div>
+                </div>
+                <div class="col-md-4 pt-4">
+                    <div class="gallery-item">
+                        <a href="images/slide3.png" data-lightbox="example-set">
+                            <img  src="images/slide3.png" class= "w-100" alt=""/>
+                        </a>
+                    
+                    </div>
+                </div>
+                <div class="col-md-4 pt-4">
+                    <div class="gallery-item">
+                        <a href="images/slide4.png" data-lightbox="example-set">
+                            <img  src="images/slide4.png" class="w-100"alt=""/>
+                        </a>
+                    
+                    </div>
+                </div>
+                <div class="col-md-4 pt-4">
+                    <div class="gallery-item">
+                        <a href="images/slide3.png" data-lightbox="example-set">
+                            <img  src="images/slide3.png" class="w-100"alt=""/>
+                        </a>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="new-letter pt-4 pb-4">
+        <duv class="container">
+            <div class="row">
+                <div class="col-md-12 text-center bg-info p-5 ">
+                    <h2 class="p-4">Sign Up for NEWSLETTER</h2>
+                    <div class="input-group mb-3 w-50 m-auto">
+                        <input type="text" class="form-control" placeholder="Your Email"
+                        aria-lebel="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <span class="input-group-text bg-warning"
+                                id="basic-addon2">Subscribe
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </duv>
+    </section>
+
+    
+       
+    <footer class="footer-area bg-dark text-white p-3 text-center">
+        <p>Copyright Text</p>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://js/lightbox-plus-jquery.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+.carousel-caption {
+
+    bottom: 30%;
+}
+.single-about i{
+    font-size:40px;
+}
+.single-about:hover{
+    background-color:lavender;
+}
+.breadcrumb{
+    background-color: transparent;
+    padding-left: 0;
+}
+.single-item img{
+    
+}
+.social-link li{
+    font-size: 23px;
+    border:1px solid #ddd;
+}
+.nav-link{
+    display: block;
+    padding: .5rem 1rem;
+    color:#333;
+}
+.clients h3{
+    text-emphasis: white;
+    font-size: 35px;
+    font-family: tahoma;
+    text-transform: uppercase;
+}
+.item-choice i{
+    font-size: 30px;
+    transition: .5s;
+}
+
+.item-choice:hover i{
+    color:darkorange;
+    margin-top: 20px;
+}
+.thumb{
+    background: url("images/service1.jpg");
+    background-image: center;
+    background-size: cover;
+}
+.card-header{
+    background: transparent;
+    border-bottom: 0px;
+}
+.add-info .card {
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+.basic-bg{
+    background-color:#00ACEE ;
+}
